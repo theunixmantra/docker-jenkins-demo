@@ -1,7 +1,5 @@
 pipeline { 
-    agent {
-        label 'dev'
-    }
+    agent any
  
     environment { 
         IMAGE_NAME = "theunixmantra/skynetapp" 
